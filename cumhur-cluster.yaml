@@ -14,9 +14,9 @@ vpc:
 managedNodeGroups:
   - name: ng-1-cumhur-node
     instanceType: t3a.medium
-    desiredCapacity: 2
+    desiredCapacity: 3
     minSize: 2
-    maxSize: 3
+    maxSize: 4
     volumeSize: 10
     privateNetworking: true
     iam:
